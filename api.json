@@ -1,335 +1,126 @@
 {
-  "category": "GHOST_HAUNTING",
-
   "meta": {
     "version": "1.0.0",
     "schema_version": "1.0.0",
-    "last_updated": "2025-12-15",
+    "last_updated": "2026-02-13",
     "repository": "https://github.com/wyrdness/ghosts",
-    "maintainers": [{"name": "Wyrdness Team", "github": "wyrdness", "role": "maintainer"}],
-    "license": {"data": "CC0-1.0", "content": "CC-BY-4.0"}
+    "maintainers": [
+      {
+        "name": "Wyrdness Team",
+        "github": "wyrdness",
+        "role": "maintainer"
+      }
+    ],
+    "license": {
+      "data": "CC0-1.0",
+      "content": "CC-BY-4.0"
+    }
   },
   "phenomenon": {
     "id": "ghosts",
     "name": "Ghosts & Hauntings",
-    "aliases": [
-      {"name": "Ghost", "language": "English", "meaning": "Spirit of a deceased person"},
-      {"name": "Spirit", "language": "English", "meaning": "Non-corporeal entity"},
-      {"name": "Specter/Spectre", "language": "English", "meaning": "Visible ghost or phantom"},
-      {"name": "Apparition", "language": "English", "meaning": "Visual manifestation of spirit"},
-      {"name": "Phantom", "language": "English via Greek", "meaning": "Ghost or illusion"},
-      {"name": "Wraith", "language": "Scottish/English", "meaning": "Ghost, especially one seen shortly before or after death"},
-      {"name": "Poltergeist", "language": "German", "meaning": "Noisy ghost; entity that moves objects"},
-      {"name": "Revenant", "language": "French/Latin", "meaning": "One who returns from the dead"}
+    "aliases": [],
+    "category": "|_GHOST_HAUNTING_|",
+    "subcategory": "| Description | Frequency |",
+    "tags": [
+      "folklore",
+      "mythology"
     ],
-    "category": "GHOST_HAUNTING",
-    "subcategory": "Spirits of the Deceased",
-    "tags": ["ghost", "spirit", "haunting", "apparition", "poltergeist", "afterlife", "paranormal", "death", "supernatural"],
-    "status": "active",
+    "status": "documented",
     "description": {
-      "summary": "Alleged spirits of deceased humans (or occasionally animals) that manifest through visual appearances, sounds, physical interactions, or other sensory phenomena. One of the most universal and ancient paranormal beliefs.",
+      "summary": "Ghosts represent one of humanity's oldest and most universal paranormal beliefs, found in virtually every culture throughout history.",
       "full": "Ghosts represent one of humanity's oldest and most universal paranormal beliefs, found in virtually every culture throughout history. The phenomenon encompasses alleged manifestations of deceased individuals including visual apparitions, disembodied voices, unexplained sounds, cold spots, object movement, and electromagnetic disturbances. Hauntings are categorized as intelligent (interactive spirits) or residual (recordings of past events). Investigation methods have evolved from spiritualist seances to modern equipment-based approaches using EMF detectors, thermal cameras, and audio recorders. Despite widespread belief and thousands of reported experiences, no scientific evidence has definitively confirmed ghostly existence."
     },
     "etymology": {
-      "origin": "Old English 'gast' meaning breath, spirit, soul; related to German 'Geist'",
-      "meaning": "The soul or spirit of a deceased person",
-      "first_use": "Pre-medieval; concept predates recorded history"
+      "origin": "Unknown",
+      "meaning": "To be documented",
+      "first_use": "Unknown"
     }
   },
   "classification": {
     "taxonomy": {
-      "category": "GHOST_HAUNTING",
-      "type": "Spirit/Entity",
-      "subtype": "Deceased Human Manifestation",
-      "variant": "Multiple types (Intelligent, Residual, Poltergeist, etc.)"
+      "category": "|_GHOST_HAUNTING_|",
+      "type": "| Description | Frequency |",
+      "subtype": "Unknown",
+      "variant": "Unknown"
     },
-    "related_phenomena": [
-      {"id": "demons", "name": "Demons", "relationship": "related", "description": "Some hauntings attributed to demonic entities"},
-      {"id": "shadow-people", "name": "Shadow People", "relationship": "related", "description": "Dark humanoid apparitions"},
-      {"id": "psychic-phenomena", "name": "Psychic Phenomena", "relationship": "related", "description": "Mediumship and spirit communication"}
-    ],
-    "ghost_types": {
-      "description": "Classification of ghost phenomena by behavior and characteristics",
-      "types": [
-        {
-          "type": "Intelligent Haunting",
-          "description": "Spirits that interact with and respond to the living",
-          "characteristics": ["Responds to questions", "Aware of surroundings", "May communicate", "Purposeful behavior"],
-          "examples": ["Interactive apparitions", "Responsive EVPs"]
-        },
-        {
-          "type": "Residual Haunting",
-          "description": "Recordings of past events that replay without awareness",
-          "characteristics": ["Repetitive actions", "No interaction", "Triggered by conditions", "Same location/time patterns"],
-          "examples": ["Phantom footsteps", "Recurring apparitions doing same action"]
-        },
-        {
-          "type": "Poltergeist",
-          "description": "Phenomenon characterized by physical disturbances",
-          "characteristics": ["Object movement", "Knockings/rappings", "Often centered on individual", "Escalating activity"],
-          "examples": ["Enfield Poltergeist", "Rosenheim case"]
-        },
-        {
-          "type": "Crisis Apparition",
-          "description": "Ghost of living or recently deceased person appearing at moment of death/crisis",
-          "characteristics": ["Appears at death moment", "Often to loved ones", "Single appearance", "Meaningful communication"],
-          "examples": ["Numerous documented cases in SPR files"]
-        },
-        {
-          "type": "Anniversary Ghost",
-          "description": "Apparitions that appear on specific dates",
-          "characteristics": ["Annual recurrence", "Date-specific", "Often traumatic death anniversary"],
-          "examples": ["Various anniversary hauntings"]
-        },
-        {
-          "type": "Shadow Person",
-          "description": "Dark, humanoid silhouettes",
-          "characteristics": ["Solid black appearance", "Humanoid shape", "Quick movement", "Peripheral vision sighting"],
-          "examples": ["Hat Man", "Various shadow figure reports"]
-        }
-      ]
-    }
+    "related_phenomena": []
   },
   "characteristics": {
     "physical": {
-      "coloration": ["translucent/white", "gray", "full color", "dark/shadow", "luminous"],
-      "features": [
-        {"feature": "Transparency", "description": "Varying degrees from solid appearance to completely transparent", "frequency": "common"},
-        {"feature": "Human form", "description": "Typically humanoid shape, often recognizable as specific person", "frequency": "common"},
-        {"feature": "Period clothing", "description": "Often dressed in clothing from their era", "frequency": "common"},
-        {"feature": "Partial manifestation", "description": "May appear as only face, torso, or floating form", "frequency": "occasional"},
-        {"feature": "Glowing/Luminous", "description": "Self-illuminating or surrounded by light", "frequency": "occasional"},
-        {"feature": "Wounds visible", "description": "May show injuries from manner of death", "frequency": "occasional"}
-      ],
-      "morphology": "Ghosts are typically reported as humanoid figures that may appear solid, translucent, or as misty forms. They often resemble their appearance in life, sometimes at different ages. Some manifest as points of light, orbs, or shadowy figures. Partial apparitions (faces, hands) are also common."
+      "features": [],
+      "morphology": "See README.md for detailed physical description"
     },
-    "manifestation_types": [
-      {"type": "Visual apparition", "description": "Visible figure or form", "frequency": "occasional", "evidence_level": "reported/photographed"},
-      {"type": "Auditory", "description": "Disembodied voices, footsteps, knocks", "frequency": "common", "evidence_level": "reported/recorded"},
-      {"type": "Tactile", "description": "Physical sensations - touch, cold spots, pressure", "frequency": "common", "evidence_level": "reported"},
-      {"type": "Olfactory", "description": "Unexplained smells (perfume, tobacco, decay)", "frequency": "occasional", "evidence_level": "reported"},
-      {"type": "Object movement", "description": "Items displaced or thrown", "frequency": "occasional", "evidence_level": "reported/documented"},
-      {"type": "Electronic interference", "description": "Equipment malfunction, battery drain, EMF spikes", "frequency": "common", "evidence_level": "measured"},
-      {"type": "Temperature anomalies", "description": "Cold spots or sudden temperature drops", "frequency": "common", "evidence_level": "measured"}
-    ],
-    "abilities": [
-      {"ability": "Manifestation", "description": "Ability to become visible", "frequency": "occasional", "evidence_level": "reported"},
-      {"ability": "Communication", "description": "Ability to convey messages through various means", "frequency": "occasional", "evidence_level": "reported"},
-      {"ability": "Physical interaction", "description": "Ability to move objects or touch living", "frequency": "rare", "evidence_level": "reported"},
-      {"ability": "Passing through matter", "description": "Moving through walls and solid objects", "frequency": "common", "evidence_level": "reported"},
-      {"ability": "Appearing/Disappearing", "description": "Instant materialization and dematerialization", "frequency": "always", "evidence_level": "reported"}
-    ],
+    "abilities": [],
     "behavior": {
-      "activity_period": "variable (traditionally nocturnal; reported at all times)",
-      "disposition": "variable (benign to malevolent)",
-      "social_structure": "usually solitary",
-      "habitat_preference": ["place of death", "former residence", "cemeteries", "historic sites", "hospitals", "battlefields"],
-      "patterns": ["Attachment to location or object", "Repetitive actions (residual)", "Communication attempts", "Protection of territory", "Seeking closure/justice"]
+      "activity_period": "unknown",
+      "disposition": "unknown",
+      "habitat_preference": []
     }
   },
   "distribution": {
     "range": {
-      "description": "Universal phenomenon reported in every culture and time period throughout human history.",
-      "continents": ["North America", "South America", "Europe", "Asia", "Africa", "Australia", "Antarctica"],
-      "countries": ["All countries worldwide"],
-      "regions": ["Universal distribution"]
+      "description": "Unknown",
+      "continents": [],
+      "countries": [],
+      "regions": []
     },
-    "hotspots": [
-      {
-        "name": "Tower of London",
-        "location": {"description": "Historic castle and former prison", "country": "United Kingdom", "region": "London", "coordinates": {"latitude": 51.5081, "longitude": -0.0759}},
-        "sighting_count": 1000,
-        "peak_period": "Ongoing since medieval times",
-        "notes": "Multiple ghosts reported including Anne Boleyn and Princes in the Tower"
-      },
-      {
-        "name": "Gettysburg Battlefield",
-        "location": {"description": "Civil War battlefield", "country": "United States", "region": "Pennsylvania", "coordinates": {"latitude": 39.8109, "longitude": -77.2275}},
-        "sighting_count": 5000,
-        "peak_period": "1863-present",
-        "notes": "One of most haunted locations in America; thousands of deaths in 1863"
-      },
-      {
-        "name": "Eastern State Penitentiary",
-        "location": {"description": "Historic prison", "country": "United States", "region": "Pennsylvania"},
-        "sighting_count": 500,
-        "peak_period": "20th century-present",
-        "notes": "Numerous reports of apparitions and voices"
-      },
-      {
-        "name": "Edinburgh Vaults",
-        "location": {"description": "Underground chambers", "country": "United Kingdom", "region": "Scotland"},
-        "sighting_count": 1000,
-        "peak_period": "18th century-present",
-        "notes": "Extensive paranormal activity; scientifically investigated"
-      },
-      {
-        "name": "Aokigahara Forest",
-        "location": {"description": "Forest at base of Mount Fuji", "country": "Japan", "region": "Yamanashi"},
-        "sighting_count": 500,
-        "peak_period": "Modern era",
-        "notes": "Associated with yurei (Japanese ghosts)"
-      }
-    ],
+    "hotspots": [],
     "temporal": {
-      "first_recorded": {"date": "Ancient", "circa": true, "source": "Every ancient civilization has ghost accounts"},
-      "peak_activity_periods": [
-        {"period": "Spiritualist Era (1840s-1920s)", "description": "Height of organized spiritualism and seances"},
-        {"period": "Victorian Era", "description": "Major interest in ghost stories and investigation"},
-        {"period": "Modern (1970s-present)", "description": "Ghost hunting movement; equipment-based investigation"}
-      ],
-      "seasonal_patterns": "Traditional association with autumn/Halloween; Samhain and Day of the Dead traditions"
+      "first_recorded": {
+        "date": "Unknown",
+        "circa": true,
+        "source": "Traditional folklore"
+      }
     }
   },
   "history": {
     "origins": {
-      "cultural_roots": "Ghost beliefs exist in virtually every culture from prehistoric times. Ancient Egyptian, Greek, Roman, Chinese, and other civilizations all documented elaborate beliefs about spirits of the dead.",
-      "earliest_accounts": "Epic of Gilgamesh (~2100 BCE) contains ghost accounts. Pliny the Younger (~100 CE) recorded classic haunted house story. Every ancient civilization has documented ghost beliefs.",
-      "folklore_connections": "Intimately connected to ancestor worship, afterlife beliefs, and death rituals worldwide."
+      "cultural_roots": "Unknown",
+      "earliest_accounts": "See README.md for historical details",
+      "folklore_connections": "Unknown"
     },
-    "timeline": [
-      {"date": "~2100 BCE", "event": "Epic of Gilgamesh", "significance": "Early ghost account - Enkidu's ghost appears to Gilgamesh"},
-      {"date": "~100 CE", "event": "Pliny the Younger account", "significance": "Classic Roman haunted house story with chains"},
-      {"date": "Medieval period", "event": "Church codification", "significance": "Ghosts incorporated into Christian theology as souls in Purgatory"},
-      {"date": "1848", "event": "Fox Sisters rappings", "significance": "Beginning of Spiritualist movement; seances become popular"},
-      {"date": "1882", "event": "Society for Psychical Research founded", "significance": "First scientific organization to study ghosts"},
-      {"date": "1936", "event": "Brown Lady photograph", "significance": "Famous Raynham Hall ghost photo published"},
-      {"date": "1958-1959", "event": "Seaford Poltergeist", "significance": "Well-documented poltergeist case investigated by parapsychologists"},
-      {"date": "1977-1978", "event": "Enfield Poltergeist", "significance": "Extensively documented poltergeist case"},
-      {"date": "1990s-present", "event": "Modern ghost hunting", "significance": "TV shows and equipment-based investigation popularize ghost hunting"}
-    ],
-    "modern_era": "Ghost investigation has evolved from Victorian seances to modern equipment-based approaches using EMF detectors, thermal imaging, audio recorders, and full-spectrum cameras. Ghost hunting TV shows have popularized investigation techniques. Scientific studies remain inconclusive, though parapsychology continues to research survival after death. Ghost tourism is a significant industry worldwide."
+    "timeline": []
   },
   "sightings": {
     "statistics": {
-      "total_documented": 50000,
+      "total_documented": 0,
       "verified": 0,
-      "disputed": 45000,
-      "debunked": 4000,
-      "date_range": {"earliest": "Ancient", "latest": "Present"}
+      "disputed": 0,
+      "debunked": 0
     },
-    "notable": [
-      {
-        "id": "ghost-sighting-enfield",
-        "name": "Enfield Poltergeist",
-        "date": {"value": "1977-1978", "precision": "year range"},
-        "location": {"description": "Enfield, North London", "country": "United Kingdom", "region": "England"},
-        "witnesses": {"count": 30, "types": ["Family members", "Police officers", "Journalists", "Researchers"]},
-        "description": "Extensive poltergeist activity centered on the Hodgson family, particularly daughters Janet (11) and Margaret (13). Phenomena included furniture movement, knockings, levitation, voices, and fires. Investigated by SPR members Maurice Grosse and Guy Lyon Playfair. Police constable witnessed chair moving. Case lasted 18 months with over 1,500 documented incidents.",
-        "evidence": ["Police testimony", "Audio recordings", "Photographs", "Multiple witness accounts"],
-        "credibility": {"rating": "high", "factors": ["Multiple independent witnesses", "Extended duration", "Police involvement", "Thorough documentation"], "notes": "One of most documented poltergeist cases; some incidents later admitted as hoaxes by Janet"},
-        "featured": true
-      },
-      {
-        "id": "ghost-sighting-brown-lady",
-        "name": "Brown Lady of Raynham Hall",
-        "date": {"value": "1936-09-19", "precision": "exact"},
-        "location": {"description": "Raynham Hall, Norfolk", "country": "United Kingdom", "region": "England"},
-        "witnesses": {"count": 2, "types": ["Photographers"]},
-        "description": "Captain Provand and Indre Shira, photographers for Country Life magazine, were photographing the staircase when Shira saw a veiled figure descending. He took a photograph capturing a translucent figure. The image remains one of the most famous ghost photographs.",
-        "evidence": ["Photograph published in Country Life", "Contemporary testimony"],
-        "credibility": {"rating": "medium", "factors": ["Reputable publication", "Two witnesses", "Photo analysis inconclusive"], "notes": "Never definitively explained; possible double exposure suggested"},
-        "featured": true
-      },
-      {
-        "id": "ghost-sighting-tower-boleyn",
-        "name": "Anne Boleyn at Tower of London",
-        "date": {"value": "1536-present", "precision": "approximate"},
-        "location": {"description": "Tower of London", "country": "United Kingdom", "region": "London"},
-        "witnesses": {"count": 100, "types": ["Guards", "Visitors", "Workers"]},
-        "description": "The ghost of Anne Boleyn, second wife of Henry VIII executed in 1536, has been reported numerous times at the Tower of London, particularly near the Chapel of St. Peter ad Vincula where she is buried. Witnesses describe a headless woman in Tudor dress.",
-        "evidence": ["Multiple witness accounts over centuries", "Official guard reports"],
-        "credibility": {"rating": "medium", "factors": ["Multiple independent witnesses", "Centuries of reports", "Historic location"], "notes": "One of most reported ghosts in Britain"},
-        "featured": true
-      }
-    ],
+    "notable": [],
     "database_path": "./sightings/"
   },
   "evidence": {
     "physical": [],
-    "photographic": [
-      {"id": "ghost-evidence-brown-lady", "type": "photograph", "name": "Brown Lady of Raynham Hall", "description": "1936 photograph showing translucent figure on staircase", "status": "disputed", "date": "1936"},
-      {"id": "ghost-evidence-bachelor", "type": "photograph", "name": "Bachelor's Grove Cemetery", "description": "Infrared photo appearing to show seated woman", "status": "disputed", "date": "1991"}
-    ],
-    "video": [
-      {"id": "ghost-evidence-video", "type": "video", "name": "Various surveillance footage", "description": "Security camera recordings of alleged paranormal activity", "status": "disputed"}
-    ],
-    "audio": [
-      {"id": "ghost-evidence-evp", "type": "audio", "name": "Electronic Voice Phenomena (EVP)", "description": "Recordings allegedly containing spirit voices", "status": "disputed", "analysis": "May be pareidolia, radio interference, or artifact"}
-    ],
-    "documentary": [
-      {"id": "ghost-evidence-spr", "type": "research files", "name": "SPR Case Files", "description": "Extensive documentation from Society for Psychical Research since 1882", "status": "historical record"},
-      {"id": "ghost-evidence-census", "type": "survey", "name": "Census of Hallucinations", "description": "1894 SPR survey documenting ghost experiences", "status": "verified survey"}
-    ]
+    "photographic": [],
+    "video": [],
+    "audio": [],
+    "trace": []
   },
   "theories": {
-    "paranormal": [
-      {"name": "Survival Hypothesis", "description": "Ghosts are consciousness/soul of deceased that persists after death", "proponents": ["Spiritualists", "Many religious traditions"], "evidence_cited": ["Apparitions of deceased", "Veridical information from mediums", "Deathbed visions"]},
-      {"name": "Stone Tape Theory", "description": "Residual hauntings are recordings stored in building materials", "proponents": ["T.C. Lethbridge", "Various researchers"], "evidence_cited": ["Residual haunting patterns", "Location-specific phenomena", "Repetitive nature"]},
-      {"name": "RSPK (Recurrent Spontaneous Psychokinesis)", "description": "Poltergeist activity caused by living agent's unconscious psychokinesis", "proponents": ["William G. Roll", "Parapsychologists"], "evidence_cited": ["Poltergeist focus on individuals", "Correlation with stress/puberty"]}
-    ],
-    "scientific": [
-      {"name": "Infrasound", "description": "Low-frequency sound causes feelings of presence, unease, and visual anomalies", "proponents": ["Vic Tandy", "Various scientists"], "evidence_cited": ["Infrasound experiments", "18.9 Hz frequency effects"]},
-      {"name": "Electromagnetic fields", "description": "High EMF exposure causes hallucinations and feelings of presence", "proponents": ["Michael Persinger", "Jason Braithwaite"], "evidence_cited": ["God Helmet experiments", "Correlation with haunted locations and electrical issues"]},
-      {"name": "Carbon monoxide poisoning", "description": "CO exposure causes hallucinations misinterpreted as ghosts", "proponents": ["Various investigators"], "evidence_cited": ["Historical cases traced to gas leaks", "Symptom overlap"]},
-      {"name": "Sleep paralysis", "description": "Hypnopompic/hypnagogic states produce ghost-like experiences", "proponents": ["Sleep researchers"], "evidence_cited": ["Presence sensations during paralysis", "Bedroom encounter patterns"]}
-    ],
-    "skeptical": [
-      {"name": "Pareidolia", "description": "Pattern recognition causes perception of faces/figures in random stimuli", "proponents": ["Skeptics"], "evidence_cited": ["Photo analysis", "Psychological studies"]},
-      {"name": "Suggestion/Expectation", "description": "Belief in ghosts creates expectation that shapes perception", "proponents": ["Richard Wiseman", "Various psychologists"], "evidence_cited": ["Haunted room experiments", "Labeling effects on experience"]},
-      {"name": "Grief hallucinations", "description": "Bereaved commonly experience hallucinations of deceased loved ones", "proponents": ["Bereavement researchers"], "evidence_cited": ["High prevalence in bereaved", "Cross-cultural consistency"]},
-      {"name": "Fraud/Hoax", "description": "Many cases are deliberate deception for attention or profit", "proponents": ["Various investigators"], "evidence_cited": ["Exposed hoaxes", "Financial motives"]}
-    ]
+    "paranormal": [],
+    "scientific": [],
+    "skeptical": []
   },
   "cultural": {
     "folklore": {
-      "traditions": ["Ancestor veneration", "Day of the Dead", "Obon Festival", "All Souls Day", "Ghost Festival (China)", "Spiritualism"],
-      "stories": ["Every culture has ghost stories", "Headless horseman", "Lady in White", "Phantom hitchhiker", "Crying woman (La Llorona)"],
-      "beliefs": "Ghosts are one of humanity's most universal beliefs. Most cultures believe the dead can return under certain conditions (unfinished business, improper burial, violent death). Practices exist worldwide to honor the dead and prevent malevolent haunting."
-    },
-    "indigenous": {
-      "cultures": ["All cultures worldwide have ghost/spirit traditions"],
-      "significance": "Ancestor spirits play central role in many indigenous religions and practices",
-      "sensitivity_note": "Ghost beliefs are deeply integrated into religious and spiritual practices worldwide",
-      "respect_guidelines": "Approach all cultural ghost traditions with respect; avoid dismissing as mere superstition"
+      "traditions": [],
+      "stories": [],
+      "beliefs": "See README.md for cultural context"
     },
     "popular_culture": {
-      "literature": ["A Christmas Carol (Dickens)", "The Turn of the Screw (James)", "The Haunting of Hill House (Jackson)", "Ghost Story (Straub)"],
-      "film_tv": ["The Sixth Sense", "Poltergeist", "Ghost", "The Others", "Ghost Hunters", "Most Haunted"],
-      "games": ["Luigi's Mansion", "Phasmophobia", "Fatal Frame", "Various horror games"],
-      "other": ["Ghost tours industry", "Haunted attractions", "Paranormal investigation equipment industry"]
+      "literature": [],
+      "film_tv": [],
+      "games": [],
+      "other": []
     }
   },
   "research": {
-    "researchers": [
-      {"name": "Frederic W.H. Myers", "affiliation": "Society for Psychical Research", "contribution": "Founded SPR; developed survival hypothesis research", "period": "1882-1901"},
-      {"name": "Harry Price", "affiliation": "Independent", "contribution": "Investigated Borley Rectory and numerous cases", "period": "1920s-1948"},
-      {"name": "Hans Holzer", "affiliation": "Independent", "contribution": "Investigated hundreds of hauntings; authored many books", "period": "1960s-2009"},
-      {"name": "William G. Roll", "affiliation": "Parapsychology Foundation", "contribution": "RSPK theory; investigated poltergeist cases", "period": "1960s-2012"},
-      {"name": "Richard Wiseman", "affiliation": "University of Hertfordshire", "contribution": "Skeptical investigation; haunted room experiments", "period": "1990s-present"}
-    ],
-    "organizations": [
-      {"name": "Society for Psychical Research", "url": "https://www.spr.ac.uk", "focus": "Scientific study of paranormal since 1882"},
-      {"name": "American Society for Psychical Research", "url": "https://www.aspr.com", "focus": "US-based paranormal research"},
-      {"name": "Parapsychological Association", "url": "https://www.parapsych.org", "focus": "Professional organization for parapsychology"}
-    ],
-    "ongoing_studies": "Academic parapsychology continues survival research. Ghost hunting organizations conduct investigations worldwide. Scientific studies examine psychology of ghost experiences and environmental factors in haunted locations."
+    "researchers": [],
+    "organizations": [],
+    "ongoing_studies": "None documented"
   },
-  "investigation_methods": {
-    "description": "Common approaches to ghost investigation",
-    "methods": [
-      {"method": "EMF Detection", "description": "Electromagnetic field meters detect fluctuations", "equipment": ["K-II meter", "Mel Meter", "Trifield meter"]},
-      {"method": "EVP Recording", "description": "Audio recording for spirit voices", "equipment": ["Digital recorder", "Spirit box"]},
-      {"method": "Thermal Imaging", "description": "Detect temperature anomalies", "equipment": ["FLIR camera", "Thermal gun"]},
-      {"method": "Photography", "description": "Capture visual anomalies", "equipment": ["Full spectrum camera", "IR camera"]},
-      {"method": "Motion Detection", "description": "Detect movement in empty spaces", "equipment": ["Motion sensors", "Laser grids"]},
-      {"method": "Mediumship", "description": "Psychic communication with spirits", "equipment": ["None - human ability claimed"]}
-    ]
-  },
-  "sources": [
-    {"id": "gauld-1982", "type": "book", "title": "Mediumship and Survival", "authors": ["Alan Gauld"], "publication": "Heinemann", "date": "1982"},
-    {"id": "finucane-1984", "type": "book", "title": "Appearances of the Dead: A Cultural History of Ghosts", "authors": ["R.C. Finucane"], "publication": "Prometheus Books", "date": "1984"},
-    {"id": "playfair-1980", "type": "book", "title": "This House Is Haunted", "authors": ["Guy Lyon Playfair"], "publication": "Souvenir Press", "date": "1980", "notes": "Account of Enfield Poltergeist"},
-    {"id": "wiseman-2011", "type": "book", "title": "Paranormality", "authors": ["Richard Wiseman"], "publication": "Macmillan", "date": "2011"}
-  ]
+  "sources": []
 }
