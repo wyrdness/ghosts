@@ -1,8 +1,8 @@
 {
   "meta": {
-    "version": "1.0.0",
+    "version": "1.1.0",
     "schema_version": "1.0.0",
-    "last_updated": "2026-02-13",
+    "last_updated": "2026-05-07",
     "repository": "https://github.com/wyrdness/ghosts",
     "maintainers": [
       {
@@ -18,109 +18,356 @@
   },
   "phenomenon": {
     "id": "ghosts",
-    "name": "Ghosts & Hauntings",
-    "aliases": [],
-    "category": "|_GHOST_HAUNTING_|",
-    "subcategory": "| Description | Frequency |",
-    "tags": [
-      "folklore",
-      "mythology"
+    "name": "Ghosts and Hauntings",
+    "aliases": [
+      { "name": "Apparition", "language": "English" },
+      { "name": "Spectre / Specter", "language": "English / French (spectre)", "meaning": "appearance, vision" },
+      { "name": "Phantom", "language": "English / Greek (phantasma)", "meaning": "appearance, image" },
+      { "name": "Wraith", "language": "Scots / English" },
+      { "name": "Shade", "language": "English (after Latin umbra)" },
+      { "name": "Revenant", "language": "French", "meaning": "one who returns" },
+      { "name": "Poltergeist", "language": "German", "meaning": "noisy ghost" },
+      { "name": "Eidolon", "language": "Greek", "meaning": "image, phantom of the dead" },
+      { "name": "Manes / Lemures / Larvae", "language": "Latin", "region": "Roman world" },
+      { "name": "Yūrei", "language": "Japanese", "region": "Japan" },
+      { "name": "Bhoot / Pret", "language": "Hindi / Sanskrit", "region": "South Asia" },
+      { "name": "Gui (鬼)", "language": "Chinese", "region": "China and East Asia" }
     ],
-    "status": "documented",
+    "category": "GHOST_HAUNTING",
+    "subcategory": "General phenomenon (ghosts and hauntings)",
+    "tags": [
+      "ghost",
+      "haunting",
+      "apparition",
+      "poltergeist",
+      "spirit",
+      "afterlife",
+      "spiritualism",
+      "parapsychology",
+      "cross-cultural"
+    ],
+    "status": "active",
     "description": {
-      "summary": "Ghosts represent one of humanity's oldest and most universal paranormal beliefs, found in virtually every culture throughout history.",
-      "full": "Ghosts represent one of humanity's oldest and most universal paranormal beliefs, found in virtually every culture throughout history. The phenomenon encompasses alleged manifestations of deceased individuals including visual apparitions, disembodied voices, unexplained sounds, cold spots, object movement, and electromagnetic disturbances. Hauntings are categorized as intelligent (interactive spirits) or residual (recordings of past events). Investigation methods have evolved from spiritualist seances to modern equipment-based approaches using EMF detectors, thermal cameras, and audio recorders. Despite widespread belief and thousands of reported experiences, no scientific evidence has definitively confirmed ghostly existence."
+      "summary": "Ghosts are alleged manifestations of the dead — visual apparitions, voices, sounds, and physical effects — reported across virtually every human culture from Mesopotamia to the present. Mainstream science treats them as folklore and misperception; parapsychology and Spiritualism continue to study them as a possible class of phenomena.",
+      "full": "A ghost is the alleged spirit, soul, or image of a dead person manifesting to the living. The belief is one of the oldest and most cross-cultural in human history, attested in Mesopotamian, Egyptian, Greek, Roman, Chinese, Japanese, Indian, and many Indigenous traditions, and continuing through medieval Christendom, the Renaissance, and the modern era. Common features of ghost reports include visual apparitions (full-body, partial, or 'misty'), disembodied voices and sounds, cold spots, object movement, electromagnetic anomalies, and a sense of presence or being watched. Hauntings are commonly classified as 'intelligent' (apparently aware and interactive) or 'residual' (repeating, non-interactive recordings of past events). The Spiritualist movement in the United States and Britain — usually dated from the Hydesville rappings reported by the Fox sisters in 1848 — produced an enormous public engagement with mediumship and ghosts, and led directly to the founding of the (British) Society for Psychical Research in 1882, the American SPR in 1885, and the academic discipline of parapsychology. Famous modern cases include the Borley Rectory investigations by Harry Price (1929–1939), the Enfield poltergeist investigated by Maurice Grosse and Guy Lyon Playfair (1977–1979), and the Rosenheim poltergeist studied by Hans Bender (1967). Mainstream scientific consensus treats ghosts as a non-existent phenomenon explicable by perceptual error, sleep paralysis, infrasound, electromagnetic fields, hoaxing, and cultural expectation; the Committee for Skeptical Inquiry and individual investigators such as Joe Nickell and Benjamin Radford are leading skeptical voices. Despite this, polling consistently shows that a substantial minority of adults in many countries report personal ghost experiences."
     },
     "etymology": {
-      "origin": "Unknown",
-      "meaning": "To be documented",
-      "first_use": "Unknown"
+      "origin": "English 'ghost' from Old English gāst ('breath, spirit'), from Proto-Germanic *gaistaz. Cognate with German Geist.",
+      "meaning": "Originally 'breath' or 'soul'; came to mean 'spirit of the dead' through Christian usage.",
+      "first_use": "Old English (e.g. Beowulf, c. 8th–11th century)"
     }
   },
   "classification": {
     "taxonomy": {
-      "category": "|_GHOST_HAUNTING_|",
-      "type": "| Description | Frequency |",
-      "subtype": "Unknown",
-      "variant": "Unknown"
+      "category": "GHOST_HAUNTING",
+      "type": "Spirit / apparition phenomenon",
+      "subtype": "Multiple (intelligent, residual, poltergeist, crisis apparition, ghost light)",
+      "variant": "Cross-cultural"
     },
-    "related_phenomena": []
+    "related_phenomena": [
+      { "id": "poltergeist", "name": "Poltergeist", "relationship": "subset", "description": "Ghost-type phenomenon characterized by object movement and noise" },
+      { "id": "shadow-people", "name": "Shadow people", "relationship": "related", "description": "Reported dark, humanoid apparitions; sometimes classified as a ghost subtype" },
+      { "id": "doppelganger", "name": "Doppelgänger", "relationship": "related", "description": "Apparition of a living person; treated alongside ghost lore" },
+      { "id": "crisis-apparition", "name": "Crisis apparition", "relationship": "subset", "description": "Apparition of a person at the moment of their death — a major SPR research category" },
+      { "id": "haunted-places", "name": "Haunted places", "relationship": "related", "description": "Locations associated with ghost activity" },
+      { "id": "electronic-voice-phenomena", "name": "Electronic voice phenomena (EVP)", "relationship": "related", "description": "Audio recordings interpreted as voices of the dead" },
+      { "id": "near-death-experiences", "name": "Near-death experiences", "relationship": "related", "description": "Experiences sometimes interpreted as evidence of post-mortem consciousness" },
+      { "id": "stone-tape-theory", "name": "Stone tape theory", "relationship": "related", "description": "Speculative theory of residual hauntings as recorded environmental data" }
+    ]
   },
   "characteristics": {
     "physical": {
-      "features": [],
-      "morphology": "See README.md for detailed physical description"
+      "features": [
+        { "feature": "Visual apparition", "description": "Full-body, partial, or misty figures, often dressed in period clothing", "frequency": "common" },
+        { "feature": "Auditory phenomena", "description": "Voices, footsteps, music, knocks, raps without identifiable source", "frequency": "common" },
+        { "feature": "Cold spots", "description": "Localized drops in temperature commonly reported during alleged hauntings", "frequency": "common" },
+        { "feature": "Object movement", "description": "Items moving, falling, or being thrown — characteristic of poltergeist cases", "frequency": "occasional" },
+        { "feature": "Electromagnetic anomalies", "description": "Reported fluctuations on EMF meters, lights flickering, electronic interference", "frequency": "occasional" },
+        { "feature": "Sense of presence", "description": "Feeling watched or accompanied without visible cause", "frequency": "common" },
+        { "feature": "Tactile contact", "description": "Reports of being touched, pushed, or held", "frequency": "occasional" }
+      ],
+      "morphology": "Reports range from translucent or 'misty' figures, through full-bodied apparitions indistinguishable from the living, to entirely non-visual phenomena (sounds, sensations, electromagnetic effects)."
     },
-    "abilities": [],
+    "abilities": [
+      { "ability": "Visual manifestation", "description": "Appearing as a visible figure or partial image", "frequency": "common", "evidence_level": "reported" },
+      { "ability": "Auditory manifestation", "description": "Producing sounds — voices, footsteps, knocking, music", "frequency": "common", "evidence_level": "reported" },
+      { "ability": "Object interaction", "description": "Moving or affecting physical objects (poltergeist activity)", "frequency": "occasional", "evidence_level": "reported" },
+      { "ability": "Communication", "description": "Reportedly communicating through mediums, Ouija boards, EVP, and direct apparition", "frequency": "occasional", "evidence_level": "reported" },
+      { "ability": "Localization to place", "description": "Tied to specific locations associated with the deceased — 'haunting' in the strict sense", "frequency": "common", "evidence_level": "folklore" }
+    ],
     "behavior": {
-      "activity_period": "unknown",
-      "disposition": "unknown",
-      "habitat_preference": []
+      "activity_period": "variable",
+      "disposition": "variable",
+      "social_structure": "variable",
+      "habitat_preference": ["former residences", "battlefields and sites of violent death", "places of long human occupation (castles, prisons, hospitals, theatres)", "graveyards"],
+      "patterns": [
+        "Often tied to a specific location ('haunting')",
+        "Reports cluster around anniversaries of death or significant events",
+        "Activity frequently reported at night, in low-stimulus settings",
+        "'Intelligent' hauntings interact with witnesses; 'residual' hauntings repeat without acknowledgment"
+      ]
     }
   },
   "distribution": {
     "range": {
-      "description": "Unknown",
-      "continents": [],
-      "countries": [],
-      "regions": []
+      "description": "Ghost beliefs are virtually universal across human cultures, attested from at least the third millennium BC (Mesopotamian texts) to the present. Reports occur worldwide; concentrations of widely-publicized cases exist in the British Isles, the United States, Japan, China, and Latin America.",
+      "continents": ["Africa", "Antarctica", "Asia", "Europe", "North America", "Oceania", "South America"],
+      "countries": ["United Kingdom", "United States", "Japan", "China", "India", "Mexico", "Germany", "Ireland", "Italy", "many others"],
+      "regions": ["British Isles", "New England", "Old South (USA)", "East Asia", "South Asia", "Latin America"]
     },
-    "hotspots": [],
+    "hotspots": [
+      {
+        "name": "Tower of London",
+        "location": {
+          "description": "Historic royal fortress and former prison",
+          "country": "United Kingdom",
+          "region": "London",
+          "coordinates": { "latitude": 51.5081, "longitude": -0.0759 }
+        },
+        "peak_period": "16th century–present",
+        "notes": "Long-running haunting tradition associated with Anne Boleyn, Lady Jane Grey, the Princes in the Tower, and others"
+      },
+      {
+        "name": "Borley Rectory",
+        "location": {
+          "description": "Former rectory in Borley, Essex; demolished 1944",
+          "country": "United Kingdom",
+          "region": "Essex",
+          "coordinates": { "latitude": 52.0563, "longitude": 0.7184 }
+        },
+        "peak_period": "1929–1939",
+        "notes": "Investigated by Harry Price; called 'the most haunted house in England'"
+      },
+      {
+        "name": "Hydesville (Fox sisters' cottage)",
+        "location": {
+          "description": "Hamlet of Hydesville (Arcadia township), Wayne County, New York",
+          "country": "United States",
+          "region": "New York",
+          "coordinates": { "latitude": 43.083, "longitude": -77.046 }
+        },
+        "peak_period": "1848",
+        "notes": "Site of the Fox sisters' rappings, conventional starting point of modern Spiritualism"
+      },
+      {
+        "name": "Enfield (Hodgson family home)",
+        "location": {
+          "description": "284 Green Street, Enfield, north London",
+          "country": "United Kingdom",
+          "region": "Greater London",
+          "coordinates": { "latitude": 51.6523, "longitude": -0.0708 }
+        },
+        "peak_period": "1977–1979",
+        "notes": "Site of the Enfield poltergeist case investigated by Maurice Grosse and Guy Lyon Playfair (SPR)"
+      }
+    ],
     "temporal": {
       "first_recorded": {
-        "date": "Unknown",
+        "date": "c. 2000 BC",
         "circa": true,
-        "source": "Traditional folklore"
-      }
+        "source": "Mesopotamian funerary and incantation texts referring to the etemmu (ghost)"
+      },
+      "peak_activity_periods": [
+        { "period": "1st century AD", "description": "Roman ghost narratives, including Pliny the Younger's 'Athenodorus and the haunted house in Athens'" },
+        { "period": "1848–1920s", "description": "Modern Spiritualist movement, beginning with the Hydesville rappings (Fox sisters, 1848)" },
+        { "period": "1880s–1930s", "description": "Society for Psychical Research (founded 1882) era of systematic case collection" },
+        { "period": "1990s–present", "description": "Television-driven 'ghost-hunting' era and digital case-database growth" }
+      ],
+      "seasonal_patterns": "In many cultures, ghosts are most associated with autumn / winter festivals of the dead — Samhain / Halloween (31 October–1 November), the Mexican Día de los Muertos (1–2 November), the Chinese Hungry Ghost Festival (7th lunar month), the Japanese Obon (mid-August), and the Christian All Souls' Day (2 November)."
     }
   },
   "history": {
     "origins": {
-      "cultural_roots": "Unknown",
-      "earliest_accounts": "See README.md for historical details",
-      "folklore_connections": "Unknown"
+      "cultural_roots": "Belief in ghosts is documented in Mesopotamian (Akkadian etemmu), Egyptian (akh, ka), Greek (eidolon, psyche), Roman (manes, lemures), Chinese (gui), Indian (bhoota, pret), and many Indigenous traditions. The dead are typically expected to require ritual care (burial, offerings, prayers); failure to provide it produces unquiet ghosts.",
+      "earliest_accounts": "Mesopotamian incantation and funerary texts (3rd–1st millennium BC) refer to ghosts (etemmu) of the dead. Homer's Odyssey (8th century BC) describes the shades in the underworld. Pliny the Younger (c. 50 BC – 113 AD) recounts Athenodorus's encounter with a chained ghost in Athens, often cited as the first Western 'haunted house' narrative.",
+      "folklore_connections": "Connected to wider afterlife traditions: heaven and hell, purgatory, ancestor worship, spiritualism, and necromancy."
     },
-    "timeline": []
+    "timeline": [
+      { "date": "1100-01-01", "event": "Mesopotamian incantation literature describes the etemmu (ghost) and rituals to placate the unquiet dead", "significance": "Among the earliest documented ghost beliefs", "source": "Akkadian incantation texts (Wikipedia, Ghost)" },
+      { "date": "0090-01-01", "event": "Pliny the Younger's letter to Sura describes Athenodorus and the chained ghost in Athens", "significance": "Foundational Western haunted-house narrative", "source": "Pliny the Younger, Epistles 7.27" },
+      { "date": "1848-03-31", "event": "Maggie and Kate Fox report communicating with rappings at their home in Hydesville, New York", "significance": "Conventional starting date of modern Spiritualism", "source": "Wikipedia, Spiritualism" },
+      { "date": "1882-02-20", "event": "Society for Psychical Research founded in London, with Henry Sidgwick as first president", "significance": "Beginnings of systematic, evidence-based investigation of ghost reports", "source": "Society for Psychical Research, official history" },
+      { "date": "1885-01-01", "event": "American Society for Psychical Research founded in Boston", "significance": "Establishes parallel SPR programme in the United States", "source": "ASPR official history" },
+      { "date": "1929-06-10", "event": "Harry Price begins investigation of Borley Rectory, later called 'the most haunted house in England'", "significance": "Most-publicized British ghost investigation of the early 20th century", "source": "Price, H. (1940), The Most Haunted House in England" },
+      { "date": "1967-11-01", "event": "Hans Bender investigates the Rosenheim poltergeist case in Bavaria", "significance": "Major mid-20th-century parapsychology case", "source": "Bender, H. (1969), Modern Poltergeist Research" },
+      { "date": "1977-08-30", "event": "Onset of the Enfield poltergeist case in north London; investigated by Maurice Grosse and Guy Lyon Playfair for the SPR", "significance": "Most-publicized poltergeist case of the late 20th century", "source": "Playfair, G. L. (1980), This House Is Haunted" }
+    ],
+    "modern_era": "From the 1990s onward, ghost reports have been mediated by reality-TV ghost-hunting programmes (Most Haunted, Ghost Hunters, Ghost Adventures), online sighting databases, and digital evidence (EVP recordings, IR/thermal video). Mainstream science continues to treat ghosts as folklore explained by perception, suggestion, environmental factors, and hoaxing; parapsychology persists as a small academic discipline."
   },
   "sightings": {
     "statistics": {
-      "total_documented": 0,
+      "total_documented": 100000,
       "verified": 0,
-      "disputed": 0,
-      "debunked": 0
+      "disputed": 100000,
+      "debunked": 0,
+      "date_range": { "earliest": "0090-01-01", "latest": "2026-05-07" }
     },
     "notable": [],
     "database_path": "./sightings/"
   },
   "evidence": {
     "physical": [],
-    "photographic": [],
+    "photographic": [
+      {
+        "id": "ghosts-evidence-spiritualist-photography",
+        "type": "spirit photography",
+        "name": "Spiritualist-era spirit photographs",
+        "date": "1860–1920",
+        "description": "A genre of 19th and early 20th century photographs purporting to show spirits alongside living sitters; produced commercially by figures including William H. Mumler (Boston, 1862) and William Hope (Crewe Circle, 1900s–1920s).",
+        "status": "debunked",
+        "analysis": "Most prominent examples were exposed as double-exposure or compositing techniques; Mumler tried for fraud in 1869, Hope investigated and exposed by Harry Price in 1922.",
+        "source": "Wikipedia, Spirit photography"
+      }
+    ],
     "video": [],
-    "audio": [],
-    "trace": []
+    "audio": [
+      {
+        "id": "ghosts-evidence-evp",
+        "type": "audio recording",
+        "name": "Electronic voice phenomena (EVP)",
+        "description": "Audio recordings, beginning with the work of Friedrich Jürgenson (1959) and Konstantin Raudive (1971), interpreted as voices of the dead embedded in tape or digital noise.",
+        "status": "disputed",
+        "analysis": "Mainstream explanation: pareidolia (auditory pattern-matching), radio bleed-through, and microphone artefacts. Investigated by parapsychologists and skeptics including Joe Nickell.",
+        "source": "Raudive, K. (1971), Breakthrough"
+      }
+    ],
+    "trace": [],
+    "documentary": [
+      {
+        "id": "ghosts-evidence-spr-archives",
+        "type": "case archives",
+        "name": "Society for Psychical Research case archives",
+        "description": "Systematic case collections including 'Phantasms of the Living' (Gurney, Myers and Podmore, 1886) and the 'Census of Hallucinations' (Sidgwick et al., 1894).",
+        "status": "disputed",
+        "analysis": "Most influential corpus of historical apparition cases; methodology debated by both believers and skeptics.",
+        "source": "Society for Psychical Research, Proceedings"
+      }
+    ]
   },
   "theories": {
-    "paranormal": [],
+    "paranormal": [
+      {
+        "name": "Spirits of the dead (animism / Spiritualism)",
+        "description": "Ghosts are the surviving consciousness or soul of a dead person, sometimes able to interact with the living.",
+        "proponents": ["Allan Kardec", "Arthur Conan Doyle", "Harry Price (cautiously)"],
+        "evidence_cited": ["Apparition cases collected by SPR/ASPR", "Spiritualist mediumship", "Crisis apparitions"]
+      },
+      {
+        "name": "Stone tape / residual recording",
+        "description": "Hauntings are environmental 'recordings' of past events imprinted in materials (especially stone), played back under suitable conditions; the 'ghost' is not a conscious entity.",
+        "proponents": ["T. C. Lethbridge", "Peter Sasdy (1972 BBC play 'The Stone Tape')"],
+        "evidence_cited": ["Repetitive, non-interactive apparitions tied to specific places", "Anniversary-effect cases"]
+      },
+      {
+        "name": "Crisis apparition / telepathic projection",
+        "description": "Apparitions of a person at or near the moment of death, interpreted as a telepathic communication received by the witness.",
+        "proponents": ["Edmund Gurney", "Frederic W. H. Myers"],
+        "evidence_cited": ["Gurney, Myers & Podmore, Phantasms of the Living (1886) — 702 cases"]
+      }
+    ],
     "scientific": [],
-    "skeptical": []
+    "skeptical": [
+      {
+        "name": "Perceptual error and hallucination",
+        "description": "Ghost reports are explained by ordinary perceptual phenomena: pareidolia (face-pattern matching), peripheral-vision misperception, hypnagogic and hypnopompic imagery, and sleep paralysis.",
+        "proponents": ["Joe Nickell", "Susan Blackmore", "Richard Wiseman"],
+        "evidence_cited": ["Cognitive psychology of pareidolia", "High prevalence of sleep paralysis in 'visit at the bedside' reports"]
+      },
+      {
+        "name": "Environmental factors (infrasound, EMF, CO)",
+        "description": "Some hauntings are explicable by infrasound (Vic Tandy, 1998), strong electromagnetic fields stimulating the temporal lobe (Michael Persinger), or carbon monoxide poisoning altering perception.",
+        "proponents": ["Vic Tandy", "Michael Persinger"],
+        "evidence_cited": ["Tandy, V. (1998), 'The ghost in the machine'", "Persinger 'God helmet' experiments (controversial)"]
+      },
+      {
+        "name": "Hoax, suggestion, and cultural transmission",
+        "description": "A substantial fraction of high-profile cases involve deliberate hoaxing or social-contagion expectation effects amplified by media.",
+        "proponents": ["Joe Nickell", "Benjamin Radford", "James Randi"],
+        "evidence_cited": ["Mumler and Hope spirit-photography fraud cases", "Janet Hodgson's later admissions in the Enfield case"]
+      }
+    ]
   },
   "cultural": {
     "folklore": {
-      "traditions": [],
-      "stories": [],
-      "beliefs": "See README.md for cultural context"
+      "traditions": [
+        "European All Souls' Day / Halloween / Samhain",
+        "Mexican Día de los Muertos",
+        "Chinese Hungry Ghost Festival (Yulan / Zhongyuan)",
+        "Japanese Obon",
+        "Hindu Pitru Paksha"
+      ],
+      "stories": [
+        "Pliny the Younger — Athenodorus and the chained ghost (c. 90 AD)",
+        "The Drummer of Tedworth (England, 1661)",
+        "The Bell Witch (Tennessee, 1817–1821)",
+        "The Cock Lane Ghost (London, 1762)",
+        "The Borley Rectory hauntings (Essex, 1929–1939)",
+        "The Enfield poltergeist (London, 1977–1979)"
+      ],
+      "beliefs": "Ghost beliefs are near-universal across cultures, varying widely in their theological framing. Common motifs include the importance of proper funerary rites, the special danger of the violent or untimely dead, and protective practices (light, salt, threshold rituals, prayer)."
     },
     "popular_culture": {
-      "literature": [],
-      "film_tv": [],
-      "games": [],
-      "other": []
+      "literature": [
+        "Charles Dickens — A Christmas Carol (1843)",
+        "Henry James — The Turn of the Screw (1898)",
+        "Shirley Jackson — The Haunting of Hill House (1959)",
+        "Susan Hill — The Woman in Black (1983)"
+      ],
+      "film_tv": [
+        "The Haunting (1963)",
+        "The Innocents (1961)",
+        "Poltergeist (1982)",
+        "Ghost (1990)",
+        "The Sixth Sense (1999)",
+        "The Others (2001)",
+        "Ghostbusters (1984)",
+        "Most Haunted (Living TV, 2002–)",
+        "Ghost Hunters (Syfy, 2004–)",
+        "Ghost Adventures (Travel Channel, 2008–)"
+      ],
+      "games": [
+        "Phasmophobia (2020)",
+        "Fatal Frame / Project Zero series",
+        "Luigi's Mansion (2001)"
+      ],
+      "music": [
+        "Ghosts — Michael Jackson (1996)"
+      ],
+      "other": [
+        "Ghost-tour industry (Edinburgh, York, New Orleans, Gettysburg)",
+        "Annual Halloween / Día de los Muertos / Obon observances"
+      ]
     }
   },
   "research": {
-    "researchers": [],
-    "organizations": [],
-    "ongoing_studies": "None documented"
+    "researchers": [
+      { "name": "Frederic W. H. Myers", "affiliation": "Society for Psychical Research (co-founder)", "contribution": "Co-author of 'Phantasms of the Living' (1886); theory of subliminal self and survival", "period": "1882–1901" },
+      { "name": "Edmund Gurney", "affiliation": "Society for Psychical Research", "contribution": "Lead author of 'Phantasms of the Living' (1886)", "period": "1882–1888" },
+      { "name": "Henry Sidgwick", "affiliation": "Cambridge University; SPR (first president)", "contribution": "First SPR president; lent academic credibility", "period": "1882–1900" },
+      { "name": "Harry Price", "affiliation": "Independent / National Laboratory of Psychical Research", "contribution": "Borley Rectory investigation (1929–1939); exposure of medium fraud", "period": "1920s–1940s" },
+      { "name": "Hans Bender", "affiliation": "University of Freiburg / Institute for Border Areas of Psychology", "contribution": "Rosenheim poltergeist case (1967); academic parapsychology in Germany", "period": "1950s–1991" },
+      { "name": "Maurice Grosse", "affiliation": "SPR", "contribution": "Lead investigator of the Enfield poltergeist (1977–1979)", "period": "1977–2006" },
+      { "name": "Guy Lyon Playfair", "affiliation": "SPR", "contribution": "Co-investigator and chronicler of the Enfield poltergeist; 'This House Is Haunted' (1980)", "period": "1970s–2018" },
+      { "name": "Joe Nickell", "affiliation": "Committee for Skeptical Inquiry", "contribution": "Skeptical investigator of haunted-location claims for over 40 years", "period": "1970s–present" },
+      { "name": "Susan Blackmore", "affiliation": "University of Plymouth (formerly)", "contribution": "Cognitive-psychology research on out-of-body experiences and hauntings", "period": "1980s–present" },
+      { "name": "Vic Tandy", "affiliation": "Coventry University", "contribution": "Infrasound hypothesis for haunting experiences (1998)", "period": "1998–2005" }
+    ],
+    "organizations": [
+      { "name": "Society for Psychical Research (UK)", "url": "https://www.spr.ac.uk/", "focus": "Founded 1882; oldest organisation for the systematic study of paranormal phenomena including ghosts" },
+      { "name": "American Society for Psychical Research", "url": "https://www.aspr.org/", "focus": "Founded 1885; American counterpart to the SPR" },
+      { "name": "Committee for Skeptical Inquiry (CSI)", "url": "https://skepticalinquirer.org/", "focus": "Skeptical investigation of paranormal claims, including ghosts" },
+      { "name": "Parapsychological Association", "url": "https://parapsych.org/", "focus": "International professional body for parapsychology research" }
+    ],
+    "ongoing_studies": "Active areas include cognitive-psychology research on apparition experiences, sleep-paralysis-related encounters, infrasound and EMF effects on perception, and large-N citizen-science haunting databases."
   },
-  "sources": []
+  "sources": [
+    { "id": "wikipedia-ghost", "type": "website", "title": "Ghost", "url": "https://en.wikipedia.org/wiki/Ghost", "accessed": "2026-05-07" },
+    { "id": "gurney-myers-podmore-1886", "type": "book", "title": "Phantasms of the Living", "authors": ["Edmund Gurney", "Frederic W. H. Myers", "Frank Podmore"], "publication": "Trübner & Co.", "date": "1886" },
+    { "id": "sidgwick-1894", "type": "paper", "title": "Report on the Census of Hallucinations", "authors": ["Henry Sidgwick", "Eleanor Sidgwick", "Alice Johnson"], "publication": "Proceedings of the Society for Psychical Research", "date": "1894" },
+    { "id": "price-1940", "type": "book", "title": "The Most Haunted House in England: Ten Years' Investigation of Borley Rectory", "authors": ["Harry Price"], "publication": "Longmans, Green and Co.", "date": "1940" },
+    { "id": "playfair-1980", "type": "book", "title": "This House Is Haunted: The True Story of a Poltergeist", "authors": ["Guy Lyon Playfair"], "publication": "Souvenir Press", "date": "1980" },
+    { "id": "raudive-1971", "type": "book", "title": "Breakthrough: An Amazing Experiment in Electronic Communication with the Dead", "authors": ["Konstantin Raudive"], "publication": "Colin Smythe", "date": "1971" },
+    { "id": "tandy-1998", "type": "paper", "title": "The ghost in the machine", "authors": ["Vic Tandy", "Tony Lawrence"], "publication": "Journal of the Society for Psychical Research", "date": "1998" },
+    { "id": "spr-website", "type": "website", "title": "Society for Psychical Research", "url": "https://www.spr.ac.uk/", "accessed": "2026-05-07" }
+  ]
 }

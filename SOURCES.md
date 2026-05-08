@@ -1,61 +1,23 @@
-# Sources
+# Sources & References — Ghosts and Hauntings
 
-Primary and supplementary sources for ghost and haunting documentation.
+Bibliography compiled from `api.json`. To add a source, edit `api.json` and regenerate.
 
-## Primary Sources
+## Books
 
-### Books
+- Edmund Gurney, Frederic W. H. Myers, Frank Podmore. (1886). *Phantasms of the Living*. Trübner & Co.
+- Harry Price. (1940). *The Most Haunted House in England: Ten Years' Investigation of Borley Rectory*. Longmans, Green and Co.
+- Guy Lyon Playfair. (1980). *This House Is Haunted: The True Story of a Poltergeist*. Souvenir Press
+- Konstantin Raudive. (1971). *Breakthrough: An Amazing Experiment in Electronic Communication with the Dead*. Colin Smythe
 
-| ID | Title | Authors | Publisher | Year |
-|----|-------|---------|-----------|------|
-| gauld-1982 | Mediumship and Survival | Alan Gauld | Heinemann | 1982 |
-| finucane-1984 | Appearances of the Dead: A Cultural History of Ghosts | R.C. Finucane | Prometheus Books | 1984 |
-| playfair-1980 | This House Is Haunted (Enfield case) | Guy Lyon Playfair | Souvenir Press | 1980 |
-| wiseman-2011 | Paranormality | Richard Wiseman | Macmillan | 2011 |
+## Academic Papers
 
-### Research Organizations
+- Henry Sidgwick, Eleanor Sidgwick, Alice Johnson. (1894). *Report on the Census of Hallucinations*. Proceedings of the Society for Psychical Research
+- Vic Tandy, Tony Lawrence. (1998). *The ghost in the machine*. Journal of the Society for Psychical Research
 
-| Organization | Founded | Archives |
-|--------------|---------|----------|
-| Society for Psychical Research | 1882 | Extensive case files |
-| American Society for Psychical Research | 1885 | Research papers |
-| Parapsychological Association | 1957 | Academic publications |
+## Websites
 
-## Historical Sources
-
-### Ancient Accounts
-- Epic of Gilgamesh (~2100 BCE)
-- Pliny the Younger letters (~100 CE)
-- Medieval church records
-
-### Survey Data
-- Census of Hallucinations (SPR, 1894)
-- Modern paranormal belief surveys
-
-## Supplementary Sources
-
-### Case Documentation
-
-| Case | Documentation Type | Date |
-|------|-------------------|------|
-| Enfield Poltergeist | Audio, photos, testimony | 1977-1978 |
-| Borley Rectory | Investigation records | 1929-1944 |
-| Brown Lady | Photograph, testimony | 1936 |
-
-### Scientific Studies
-
-- Infrasound research (Vic Tandy)
-- EMF and haunted locations (Jason Braithwaite)
-- Psychology of paranormal belief (Richard Wiseman)
-
-## Source Verification Status
-
-| Category | Verified | Pending | Unverified |
-|----------|----------|---------|------------|
-| Historical texts | 50+ | 100+ | Many |
-| Case files | 5000+ | 10000+ | 50000+ |
-| Photographs/Audio | 100+ | 1000+ | 10000+ |
+- *Ghost*. <https://en.wikipedia.org/wiki/Ghost>
+- *Society for Psychical Research*. <https://www.spr.ac.uk/>
 
 ---
-
-*See [CONTRIBUTING.md](https://github.com/wyrdness/.github/blob/main/CONTRIBUTING.md) for guidelines on adding sources.*
+_Auto-generated from `api.json`._
